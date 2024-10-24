@@ -12,7 +12,7 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 vim.opt.ruler = true
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "100"
 
 vim.opt.swapfile = false
 vim.opt.backup = false
