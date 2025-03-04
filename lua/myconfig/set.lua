@@ -12,11 +12,12 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 vim.opt.ruler = true
-vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = "101"
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("USERPROFILE") .. "/AppData/Local/nvim-data/undodir"
+-- vim.opt.undodir = os.getenv("USERPROFILE") .. "/AppData/Local/nvim-data/undodir"
+-- vim.opt.undodir = "/Users/james/.local/share/nvim/undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
